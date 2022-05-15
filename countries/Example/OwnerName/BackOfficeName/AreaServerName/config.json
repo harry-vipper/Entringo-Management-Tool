@@ -1,0 +1,22 @@
+{
+     "DBName": "las",
+     "Username": "las",
+     "DBPassword": "tDYQGXKoychRjDeddMKvAfELpLS1387p",
+     "DBAddress": "localhost",
+     "LocalTimeZone": "Europe/Tallinn",
+     "DefaultLang": "en-us",
+     "SBOAddress": "192.168.1.1",
+     "HalPort": 0,
+     "LASGRPCPort": 0,
+     "WebPort": 0,
+     "PicPath": "/entringo/Entringo-Numbers/",
+     "SBOClientCert": "/entringo/Entringo-Certificates/SBO_Client.crt",
+     "SBOClientKey": "/entringo/Entringo-Certificates/SBO_Client.key",
+     "HALClientCert": "/entringo/Entringo-Certificates/LAS_Client.crt",
+     "HALClientKey": "/entringo/Entringo-Certificates/LAS_Client.key",
+     "LASServerCert": "/entringo/Entringo-Certificates/LAS_Server.crt",
+     "LASServerKey": "/entringo/Entringo-Certificates/LAS_Server.key",
+     "CACert": "/entringo/Entringo-Certificates/EntringoCA.crt",
+     "PlateSimilarityOnExit": 0,
+     "DaysToDelete": 0
+}

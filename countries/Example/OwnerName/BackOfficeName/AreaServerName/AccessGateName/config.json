@@ -1,0 +1,62 @@
+{
+     "Cameras": [
+          {
+               "ID": "CameraID",
+               "IP": "192.168.1.5",
+               "IsMain": true,
+               "Type": "ARH"
+          }
+     ],
+     "CardReader": {
+          "Address": "",
+          "Enable": false
+     },
+     "Cert": {
+          "CA": "/entringo/Entringo-Certificates/EntringoCA.crt",
+          "HALServer": "/entringo/Entringo-Certificates/HAL_Server.crt",
+          "LASClient": "/entringo/Entringo-Certificates/LAS_Client.crt",
+          "Key": {
+               "HALServer": "/entringo/Entringo-Certificates/HAL_Server.key",
+               "LASClient": "/entringo/Entringo-Certificates/LAS_Client.key"
+          }
+     },
+     "Display": {
+          "DateFormat": "DD-MM-YYYY",
+          "TimeFormat": "HH:mm:ss"
+     },
+     "IO": {
+          "Input": {
+               "EntryLoop": 0,
+               "Error": 0,
+               "IsGateClosed": 0,
+               "IsGateOpen": 0,
+               "OpenGate": 0,
+               "SafetyLoop": 0
+          },
+          "Output": {
+               "GateClose": 0,
+               "GateOpen": 0
+          }
+     },
+     "IPAddress": {
+          "Controller": "192.168.1.4",
+          "LAS": "192.168.1.2"
+     },
+     "Misc": {
+          "DontRequireIntInPlate": false,
+          "EntryCamera": true,
+          "PassageProcessTimeoutSecs": 0,
+          "PictureTakeAttempts": 0,
+          "RetakePictureAfterNSeconds": 0,
+          "ShowUnableToDetectMsgAfterNSeconds": 0,
+          "SilentPictureRetake": 0,
+          "StreamRestartTime": 0
+     },
+     "Port": {
+          "Camera": 0,
+          "CameraStream": 0,
+          "ControllerEventListenerPort": 0,
+          "GRPCListen": 0,
+          "WebListen": 0
+     }
+}

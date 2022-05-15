@@ -1,0 +1,22 @@
+{
+     "deployed": false,
+     "sbo": {
+          "name": "BackOfficeName",
+          "ip": "192.168.1.1",
+          "port": 22,
+          "las": [
+               {
+                    "name": "AreaServerName",
+                    "ip": "192.168.1.2",
+                    "port": 22,
+                    "hal": [
+                         {
+                              "name": "AccessGateName",
+                              "ip": "192.168.1.3",
+                              "port": 22
+                         }
+                    ]
+               }
+          ]
+     }
+}
